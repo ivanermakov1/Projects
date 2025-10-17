@@ -1,0 +1,6 @@
+.ssh/
+AppData/
+NTUSER*
+OneDrive/
+*.LOG*
+.vscode/
