@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 OneDrive/
 .ssh/
 *.LOG*
+=======
+.ssh/
+AppData/
+NTUSER*
+OneDrive/
+*.LOG*
+.vscode/
+>>>>>>> a8ed1c25d57564004ef0d6c9dd212317f5de350d
