@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <ctime>        //for seeding time
 #include <fstream>      //for file handling
 #include <cstdlib>      //for rand and srand
@@ -231,3 +232,30 @@ void HangMan::resetGame()
 
 }
 
+=======
+#include <ctime>
+#include <fstream>
+
+#include "hangman.h"
+
+using namespace std;
+
+HangMan::HangMan(){
+    lives = 6;
+    
+
+}
+
+void HangMan:: fillRandomWordArray(){
+    ifstream fin;
+    fin.open("dictionary.txt")
+    {
+        if(!fin.open)
+    }
+}
+
+string HangMan::getRandomWord()
+{
+
+}
+>>>>>>> 3a9ecd375570875d4a2230d417439064bfdcdecb

@@ -10,4 +10,8 @@ OneDrive/
 *.LOG*
 .vscode/
 >>>>>>> a8ed1c25d57564004ef0d6c9dd212317f5de350d
+<<<<<<< HEAD
 *.exe
+=======
+Downloads/
+>>>>>>> 3a9ecd375570875d4a2230d417439064bfdcdecb

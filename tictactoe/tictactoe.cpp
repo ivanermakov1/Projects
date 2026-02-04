@@ -286,6 +286,7 @@ void TicTacToe::displayBoard()
 {
     for(int row = 0; row < 3; row++) //use loop to display the board 
     {
+<<<<<<< HEAD
         for(int col = 0; col < 3; col++)
         {
             cout << " " << board[row][col] << " ";
@@ -297,5 +298,13 @@ void TicTacToe::displayBoard()
         if(row < 2){
         cout << "---+---+---\n";
         }
+=======
+        for(int column = 0; column < 3; column++)
+        {
+            cout << board[row][column] << " " << "|";
+        }
+        cout << endl;
+        cout << "---------\n";
+>>>>>>> 3a9ecd375570875d4a2230d417439064bfdcdecb
     }
 }
