@@ -17,10 +17,8 @@ int main()
 
     int sizeLinkedList;     //variable for the size of the linked list
 
-    cout << "What is the size of the linked list, n: ";
     cin >> sizeLinkedList;  //collect input
 
-    cout << "Enter the numbers sepeared by spaces: ";
 
     //loop to collect number for the linked list
     for(int i = 0; i < sizeLinkedList; i++)

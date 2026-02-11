@@ -6,12 +6,12 @@ int main()
 {
     int sizeArray;               //varaible for the size of the array
 
-    cout << "What is the size of the array, n: ";
+    
     cin >> sizeArray;            //collect input
     
     int incArray[sizeArray];     //create the array with 10 elements for now 
 
-    cout << "Enter the numbers in the array seperated by spaces: ";
+    
 
     for(int i = 0; i < sizeArray; i++)      //loop to collect number for the array
     {
@@ -30,7 +30,7 @@ int main()
         }
     }
 
-    cout << "The minimum number of moves to make the array in ascending order is: " << minNum << endl;
+    cout << minNum << endl;
     
     return 0;
 }
