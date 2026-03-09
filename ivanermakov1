@@ -1,0 +1,23 @@
+* [33m9eef9bb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add new folders and files
+*   [33md65b815[m[33m ([m[1;31morigin/main[m[33m)[m Resolve merge conflicts and finalize merge
+[32m|[m[33m\[m  
+[32m|[m * [33m3a9ecd3[m Add insta-follower-checker and other updates
+[32m|[m * [33mbb134fe[m Sync Hangman project
+[32m|[m * [33mdcb1bed[m Add Instagram unfollower checker program
+[32m|[m * [33mbf5f2f5[m Restore deleted files and update repo
+[32m|[m * [33maacc683[m Add Downloads to .gitignore
+* [33m|[m [33md01519d[m Initial commit for insta-follower-checker
+* [33m|[m [33me0f7c57[m Clean up compiled files and organize projects
+* [33m|[m [33m0084b64[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Organize TicTacToe into its own folder
+* [33m|[m [33mdd69657[m Ignore executables
+* [33m|[m [33medb4ec1[m Update Hangman project
+* [33m|[m [33m2ee464c[m Sync Hangman project
+[33m|[m[33m/[m  
+*   [33ma3288a6[m Resolve .gitignore merge conflict
+[34m|[m[35m\[m  
+[34m|[m *   [33ma8ed1c2[m Merge branch 'master' of github.com:ivanermakov1/ivan-mac-pc-sync
+[34m|[m [36m|[m[1;31m\[m  
+[34m|[m [36m|[m * [33m5080099[m Initial commit
+[34m|[m * [33m5eabcfe[m Add project files
+* [33m5df08cf[m Add Mac project files
+* [33m6bcfbef[m Add Mac project files
