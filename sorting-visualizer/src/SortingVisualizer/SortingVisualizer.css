@@ -1,0 +1,87 @@
+/* This style the container that holds the all the bars */
+.array-container
+{
+    position : absolute;    /* This positions the container absolutely within its parent element */
+    left: 0;                /* This sets the left edge of the container to align with the left edge of its parent element */
+    right: 0;               /* This sets the right edge of the container to align with the right edge of its parent element */
+    top: 100px;             /* This sets the top edge of the container to be 100 pixels from the top edge of its parent element */
+    bottom:0;               /* This sets the bottom edge of the container to align with the bottom edge of its parent element */
+    display: flex;          /* This makes the container a flex container, allowing its child elements (the bars) to be laid out in a flexible manner */
+    flex-direction: column; /* This sets the direction of the flex layout to be vertical, meaning the bars will be stacked on top of each other */
+    align-items: center;     /* This centers the bars horizontally within the container */
+}
+
+
+/* This styles each indivisual bar */
+.array-bar
+{
+    width: 4px;                       /* This sets the width of each bar to 2 pixels */
+    display: inline-block;            /* This makes each bar an inline-block element, allowing them to be displayed next to each other horizontally while still respecting their width and height properties */
+    margin: 0 1px;                    /* This adds a margin of 1 pixel on the left and right of each bar, creating space between them */
+    background-color: turquoise;    /* Color of the bars */
+    vertical-align: bottom;           /* This aligns the bars to the bottom of the container, ensuring that they grow upwards as their height increases */
+}
+
+/* This styles the button to generate a new array of random numbers which is a top button */
+.top-buttons-container
+{
+    text-align: center;              /* This centers the content (the button) horizontally within the container */
+    margin-bottom: 20px;             /* This adds a margin of 20 pixels below the container, creating space between the button and the bars */
+}
+
+/* This styles the button to start the sorting algorithm which will be at the bottom */
+.bottom-buttons-container
+{
+    text-align: left;              /* This aligns the content (the button) to the left within the container */
+    margin-top: 20px;             /* This adds a margin of 20 pixels above the container, creating space between the bars and the button */
+    margin-left: 20px;           /* This adds a margin of 20 pixels to the left of the container, creating space between the left edge of the screen and the button */
+}
+
+.bottom-buttons-container button
+{
+    margin-right: 50px;           /* This adds a margin of 50 pixels to the right of each button, creating space between them */
+}
+/* Style the actual bottons */
+.generate-array-button
+{
+    background-color: blueviolet;           /* This sets the background color of the button to blueviolet */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
+
+.merge-sort-button
+{
+    background-color: green;           /* This sets the background color of the button to green */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
+.bubble-sort-button
+{
+    background-color: orange;           /* This sets the background color of the button to orange */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
+.selection-sort-button
+{
+    background-color: red;           /* This sets the background color of the button to red */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
+.insertion-sort-button
+{
+    background-color: pink;           /* This sets the background color of the button to yellow */
+    color: white;                       /* This sets the text color of the button to black */
+}
+
+.quick-sort-button
+{
+    background-color: blue;           /* This sets the background color of the button to purple */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
+.heap-sort-button
+{
+    background-color: brown;           /* This sets the background color of the button to brown */
+    color: white;                       /* This sets the text color of the button to white */
+}
+
