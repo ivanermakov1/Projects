@@ -1,0 +1,29 @@
+Heap and Priority Queue
+
+Heapify : O(n)
+
+Sift Down / Sift Up: O(log n)
+
+Insertion: O(log n)
+
+Deletion: O(log n)
+
+Extract Max / Extract Min: O(log n)
+
+Get Max / Get Min: O(1)
+
+Parent: (i - 1)/2
+
+Left Child: 2 * i + 1
+
+Right Child: 2 * i + 2
+
+Last Internal Node: size/2 -1
+
+First Leaf: size/2 
+
+i < size/2 = internal nodes
+
+i >= size/2 = leaves 
+
+
