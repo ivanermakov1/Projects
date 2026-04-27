@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Sorting Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that visualizes different sorting algorithms in real-time with interactive controls.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project demonstrates how 5 different sorting algorithms work by animating them step-by-step. Watch as elements are compared, swapped, and sorted in real-time with visual feedback.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive Visualization**: Watch sorting algorithms work in real-time with smooth animations
+- **5 Sorting Algorithms**: 
+  - Selection Sort
+  - Bubble Sort
+  - Insertion Sort
+  - Quick Sort
+  - Merge Sort
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Algorithms Explained
 
-### `npm test`
+### Selection Sort
+- **How it works**: Finds the largest element and moves it to the end
+- **Time Complexity**: O(n²)
+- **Best for**: Learning, small datasets
+- **Stability**: Unstable
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Bubble Sort
+- **How it works**: Compares adjacent elements and swaps them if out of order
+- **Time Complexity**: O(n²)
+- **Best for**: Educational purposes, nearly sorted data
+- **Stability**: Stable
 
-### `npm run build`
+### Insertion Sort
+- **How it works**: Builds sorted array by inserting elements one by one
+- **Time Complexity**: O(n²)
+- **Best for**: Small datasets, nearly sorted arrays
+- **Stability**: Stable
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Quick Sort
+- **How it works**: Divide and conquer using a pivot element
+- **Time Complexity**: O(n log n) average, O(n²) worst case
+- **Best for**: Large datasets, general-purpose sorting
+- **Stability**: Unstable
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Merge Sort
+- **How it works**: Divides array in half and merges sorted subarrays
+- **Time Complexity**: O(n log n) guaranteed
+- **Best for**: Large datasets, guaranteed performance
+- **Stability**: Stable
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **React**: UI framework and component management
+- **JavaScript (ES6+)**: Algorithm implementation
+- **CSS3**: Styling and animations
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone or navigate to the project
+cd sorting-visualizer
 
-## Learn More
+# Install dependencies
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Start the development server
+npm start
+```
 
-### Code Splitting
+The app will open at `http://localhost:3000` in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Building for Production
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How to Use
 
-### Making a Progressive Web App
+1. **Select Algorithm**: Choose a sorting algorithm from the dropdown menu
+2. **Generate New Array**: Click "Generate New Array" for random data
+3. **Start Sorting**: Click the "Sort" button to watch the visualization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ivan Ermakov
